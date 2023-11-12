@@ -3400,6 +3400,8 @@ function setCookie(
         'true', 't', 'false', 'f',
         'y', 'n',
         'yes', 'no',
+        'necessary',
+        'required',
     ];
     if ( validValues.includes(value.toLowerCase()) === false ) {
         if ( /^\d+$/.test(value) === false ) { return; }
